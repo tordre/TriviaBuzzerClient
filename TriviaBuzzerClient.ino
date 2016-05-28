@@ -1,4 +1,3 @@
-/*
 /**
  * A simple firmware for a simple buzzer system for trivia event
  *
@@ -19,7 +18,6 @@
  * You should have received a copy of the GNU General Public License
  * along with TriviaBuzzerClient.  If not, see <http://www.gnu.org/licenses/>.
  */
-*/
 
 #include <ESP8266WiFi.h>          //ESP8266 Core WiFi Library (you most likely already have this in your sketch)
 #include <WiFiUdp.h>
