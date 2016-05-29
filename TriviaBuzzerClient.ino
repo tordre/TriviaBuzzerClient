@@ -58,7 +58,7 @@ void setup() {
 
   //get and format MAC address
   byte mac[6];
-
+  WiFi.macAddress(mac);
   MAC += " " + String(mac[5], HEX);
   for (int i = 4; i >= 0; i--) {
     MAC += ":";
